@@ -15,6 +15,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'cancancan'
 gem 'paperclip'
+gem 'dotenv-rails', groups: [:development]
 
 group :development, :test do
   gem 'byebug'
