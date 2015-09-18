@@ -14,6 +14,7 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'simple_form'
 gem 'devise'
 gem 'cancancan'
+gem 'paperclip'
 
 group :development, :test do
   gem 'byebug'
