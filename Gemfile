@@ -16,6 +16,7 @@ gem 'devise'
 gem 'cancancan'
 gem 'paperclip'
 gem 'dotenv-rails', groups: [:development]
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   gem 'byebug'
