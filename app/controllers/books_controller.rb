@@ -42,7 +42,7 @@ class BooksController < ApplicationController
 
   private
     def set_book
-      @book = Book.find(params[:id])
+      @book = Book.friendly.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
